@@ -531,7 +531,14 @@
                 "win": "ctrl+j",
                 "key": "ctrl+j",
                 "command": "editor.action.joinLines"
-            }
+            },
+            {
+                "mac": "cmd+/",
+                "linux": "ctrl+/",
+                "win": "ctrl+/",
+                "key": "ctrl+/",
+                "command": "editor.action.commentLines"
+            },        
         ],
         "configuration": {
             "type": "object",
