@@ -322,6 +322,12 @@
                 "when": "editorTextFocus"
             },
             {
+                "win": "ctrl+shift+7",
+                "key": "ctrl+shift+7",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+=",
                 "key": "ctrl+=",
                 "command": "workbench.action.zoomIn"
