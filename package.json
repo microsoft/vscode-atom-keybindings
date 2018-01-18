@@ -328,6 +328,18 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "cmd+/",
+                "key": "cmd+/",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
+                "win": "ctrl+/",
+                "key": "ctrl+/",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+=",
                 "key": "ctrl+=",
                 "command": "workbench.action.zoomIn"
