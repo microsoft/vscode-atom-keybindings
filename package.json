@@ -322,7 +322,8 @@
             },
             {
                 "mac": "cmd+shift+7",
-                "key": "cmd+k cmd+c",
+                "win": "ctrl+7", 
+                "key": "cmd+k cmd+c ctrl+7",
                 "command": "editor.action.commentLine",
                 "when": "editorTextFocus"
             },
