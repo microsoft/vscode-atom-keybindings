@@ -2,10 +2,10 @@
     "name": "atom-keybindings",
     "displayName": "Atom Keymap",
     "description": "Popular Atom keybindings for Visual Studio Code",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "publisher": "ms-vscode",
     "engines": {
-        "vscode": "^1.30.0"
+        "vscode": "^1.75.0"
     },
     "license": "MIT",
     "categories": [
@@ -17,20 +17,10 @@
     ],
     "preview": true,
     "icon": "atom-keyboard-padded.png",
-    "activationEvents": [
-        "*"
-    ],
     "extensionKind": [
         "ui",
         "workspace"
     ],
-    "main": "./extension",
-    "browser": "./extension",
-    "capabilities": {
-        "untrustedWorkspaces": {
-            "supported": true
-        }
-    },
     "contributes": {
         "keybindings": [
             {
@@ -553,14 +543,14 @@
         ],
         "configurationDefaults": {
             "editor.multiCursorModifier": "ctrlCmd",
-            "editor.formatOnPaste": true
+            "editor.formatOnPaste": true,
+            "workbench.list.typeNavigationMode": "trigger"
         }
     },
     "scripts": {
         "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
     },
     "devDependencies": {
-        "@types/vscode": "^1.30.0",
         "@vscode/test-web": "^0.0.33"
     },
     "repository": {
