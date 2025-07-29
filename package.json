@@ -551,7 +551,7 @@
         "open-in-browser": "vscode-test-web --extensionDevelopmentPath=. ."
     },
     "devDependencies": {
-        "@vscode/test-web": "^0.0.33"
+        "@vscode/test-web": "^0.0.71"
     },
     "repository": {
         "type": "git",
